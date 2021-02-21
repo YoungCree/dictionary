@@ -1,4 +1,4 @@
-api_key = "MNBnB1NQu6RigUYKf0lLK5TumtRA5c1n";
+api_key = config.API_KEY;
 
 document.getElementById("wordSubmit").addEventListener("click", function(event) {
   event.preventDefault();
