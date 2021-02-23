@@ -6,8 +6,9 @@
   <title>GiFind</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="/styles.css">
@@ -22,7 +23,13 @@
     <input id="wordSubmit" type="image" src="images/search-black-18dp.svg"></input>
   </form>
 
+  <div id="rando-btn" class="button-holder">
+    <button type="button" class="btn btn-primary" onclick="loadRandom()">Random Gif</button>
+  </div>
+
   <div class="whitespace"></div>
+
+  <div id="randomResults"></div>
 
   <div id="trendingResults"></div>
 
@@ -31,7 +38,7 @@
   <div class="whitespace"></div>
 
   <div class="footer" id="footer">
-    <a href="https://github.com/BYU-CS-260-Winter-2021/lab-2-weather-app-YoungCree">
+    <a href="https://github.com/YoungCree/gifind">
       <img class="footer-img" src="/images/github.png" alt="">
     </a>
   </div>
